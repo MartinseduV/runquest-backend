@@ -1,0 +1,10 @@
+POST http://localhost:8080/players
+Content-Type: application/json
+
+{
+    "nickname": "Eduardo",
+    "email": "eusoueduardomartins@gmail.com",
+    "level": 1,
+    "xp": 0,
+    "gold": 0
+}
