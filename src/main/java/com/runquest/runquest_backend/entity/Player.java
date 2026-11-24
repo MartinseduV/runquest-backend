@@ -11,6 +11,7 @@ public class Player {
         private long id;
         private String nickname;
         private String email;
+        private String password;
 
 
         private Integer level = 1;
@@ -23,6 +24,14 @@ public class Player {
 
     public void setGold(long gold) {
         this.gold = gold;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getNickname() {
